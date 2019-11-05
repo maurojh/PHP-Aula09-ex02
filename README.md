@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-11-05 ter 15:09 -->
+<!-- 2019-11-05 ter 15:13 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -232,28 +232,27 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org1b51ca2">1. Usando biblioteca para gerar arquivo PDF</a>
+<li><a href="#orgc8d2b4b">1. Usando biblioteca para gerar arquivo PDF</a>
 <ul>
-<li><a href="#org52231c8">1.1. Instalação usando o git</a></li>
-<li><a href="#orgc68ac6f">1.2. Exercício 1</a></li>
-<li><a href="#org1066f0b">1.3. Imprimindo tabelas</a></li>
-<li><a href="#org1b03dfc">1.4. Exercício 2</a></li>
-<li><a href="#org0cc2dff">1.5. Exercício 3</a></li>
+<li><a href="#org2d1f730">1.1. Instalação usando o git</a></li>
+<li><a href="#org2751537">1.2. Exercício 1</a></li>
+<li><a href="#orge6f56fe">1.3. Imprimindo tabelas</a></li>
+<li><a href="#org98cc613">1.4. Exercício 2</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org1b51ca2" class="outline-2">
-<h2 id="org1b51ca2"><span class="section-number-2">1</span> Usando biblioteca para gerar arquivo PDF</h2>
+<div id="outline-container-orgc8d2b4b" class="outline-2">
+<h2 id="orgc8d2b4b"><span class="section-number-2">1</span> Usando biblioteca para gerar arquivo PDF</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Podemos usar <a href="https://github.com/dompdf/dompdf">dompdf</a> para gerar arquivos PDF em PHP.
 </p>
 </div>
 
-<div id="outline-container-org52231c8" class="outline-3">
-<h3 id="org52231c8"><span class="section-number-3">1.1</span> Instalação usando o git</h3>
+<div id="outline-container-org2d1f730" class="outline-3">
+<h3 id="org2d1f730"><span class="section-number-3">1.1</span> Instalação usando o git</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 Abra o prompt de comando e acesse a pasta onde irá ficar o dompdf:
@@ -321,8 +320,8 @@ $dompdf-&gt;stream();
 </div>
 </div>
 
-<div id="outline-container-orgc68ac6f" class="outline-3">
-<h3 id="orgc68ac6f"><span class="section-number-3">1.2</span> Exercício 1</h3>
+<div id="outline-container-org2751537" class="outline-3">
+<h3 id="org2751537"><span class="section-number-3">1.2</span> Exercício 1</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 Crie uma página que gere um arquivo PDF contendo seu nome, a data e hora atual.
@@ -330,8 +329,8 @@ Crie uma página que gere um arquivo PDF contendo seu nome, a data e hora atual.
 </div>
 </div>
 
-<div id="outline-container-org1066f0b" class="outline-3">
-<h3 id="org1066f0b"><span class="section-number-3">1.3</span> Imprimindo tabelas</h3>
+<div id="outline-container-orge6f56fe" class="outline-3">
+<h3 id="orge6f56fe"><span class="section-number-3">1.3</span> Imprimindo tabelas</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 Você pode carregar elementos HTML usando o método <code>dompdf-&gt;loadHtml()</code>.
@@ -409,27 +408,18 @@ $dompdf-&gt;stream();
 
 
 
-<div id="outline-container-org1b03dfc" class="outline-3">
-<h3 id="org1b03dfc"><span class="section-number-3">1.4</span> Exercício 2</h3>
+<div id="outline-container-org98cc613" class="outline-3">
+<h3 id="org98cc613"><span class="section-number-3">1.4</span> Exercício 2</h3>
 <div class="outline-text-3" id="text-1-4">
 <p>
 Utilizando o exemplo anterior, receba do usuário um valor e imprima no arquivo PDF a tabuada da multiplicação do valor selecionado.
 </p>
 </div>
 </div>
-
-<div id="outline-container-org0cc2dff" class="outline-3">
-<h3 id="org0cc2dff"><span class="section-number-3">1.5</span> Exercício 3</h3>
-<div class="outline-text-3" id="text-1-5">
-<p>
-Utilizando a tabela Usuarios criada na <a href="https://github.com/maurojh/PHP-Aula08-ex05">aula 8</a> gere um arquivo PDF usando dompdf que mostre todos os nomes e emails de todos os usuários cadastrados, cadastre ao menos 5 usuários antes.
-</p>
-</div>
-</div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2019-11-05 ter 15:09</p>
+<p class="date">Created: 2019-11-05 ter 15:13</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
