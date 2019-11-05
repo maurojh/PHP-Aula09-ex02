@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-11-05 ter 15:04 -->
+<!-- 2019-11-05 ter 15:08 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -232,27 +232,28 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org81a5986">1. Usando biblioteca para gerar arquivo PDF</a>
+<li><a href="#org165abc1">1. Usando biblioteca para gerar arquivo PDF</a>
 <ul>
-<li><a href="#org6862511">1.1. Instalação usando o git</a></li>
-<li><a href="#orgb347101">1.2. Exercício 1</a></li>
-<li><a href="#org73b3374">1.3. Imprimindo tabelas</a></li>
-<li><a href="#orge78efea">1.4. Exercício 2</a></li>
+<li><a href="#orgcf34369">1.1. Instalação usando o git</a></li>
+<li><a href="#org9b9e5d3">1.2. Exercício 1</a></li>
+<li><a href="#org81aa49b">1.3. Imprimindo tabelas</a></li>
+<li><a href="#org37cbbbc">1.4. Exercício 2</a></li>
+<li><a href="#org9170f97">1.5. Exercício 3</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org81a5986" class="outline-2">
-<h2 id="org81a5986"><span class="section-number-2">1</span> Usando biblioteca para gerar arquivo PDF</h2>
+<div id="outline-container-org165abc1" class="outline-2">
+<h2 id="org165abc1"><span class="section-number-2">1</span> Usando biblioteca para gerar arquivo PDF</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Podemos usar <a href="https://github.com/dompdf/dompdf">dompdf</a> para gerar arquivos PDF em PHP.
 </p>
 </div>
 
-<div id="outline-container-org6862511" class="outline-3">
-<h3 id="org6862511"><span class="section-number-3">1.1</span> Instalação usando o git</h3>
+<div id="outline-container-orgcf34369" class="outline-3">
+<h3 id="orgcf34369"><span class="section-number-3">1.1</span> Instalação usando o git</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 Abra o prompt de comando e acesse a pasta onde irá ficar o dompdf:
@@ -320,8 +321,8 @@ $dompdf-&gt;stream();
 </div>
 </div>
 
-<div id="outline-container-orgb347101" class="outline-3">
-<h3 id="orgb347101"><span class="section-number-3">1.2</span> Exercício 1</h3>
+<div id="outline-container-org9b9e5d3" class="outline-3">
+<h3 id="org9b9e5d3"><span class="section-number-3">1.2</span> Exercício 1</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 Crie uma página que gere um arquivo PDF contendo seu nome, a data e hora atual.
@@ -329,8 +330,8 @@ Crie uma página que gere um arquivo PDF contendo seu nome, a data e hora atual.
 </div>
 </div>
 
-<div id="outline-container-org73b3374" class="outline-3">
-<h3 id="org73b3374"><span class="section-number-3">1.3</span> Imprimindo tabelas</h3>
+<div id="outline-container-org81aa49b" class="outline-3">
+<h3 id="org81aa49b"><span class="section-number-3">1.3</span> Imprimindo tabelas</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 Você pode carregar elementos HTML usando o método <code>dompdf-&gt;loadHtml()</code>.
@@ -408,9 +409,18 @@ $dompdf-&gt;stream();
 
 
 
-<div id="outline-container-orge78efea" class="outline-3">
-<h3 id="orge78efea"><span class="section-number-3">1.4</span> Exercício 2</h3>
+<div id="outline-container-org37cbbbc" class="outline-3">
+<h3 id="org37cbbbc"><span class="section-number-3">1.4</span> Exercício 2</h3>
 <div class="outline-text-3" id="text-1-4">
+<p>
+Utilizando o exemplo anterior, receba do usuário um valor e imprima no arquivo PDF.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9170f97" class="outline-3">
+<h3 id="org9170f97"><span class="section-number-3">1.5</span> Exercício 3</h3>
+<div class="outline-text-3" id="text-1-5">
 <p>
 Utilizando a tabela Usuarios criada na <a href="https://github.com/maurojh/PHP-Aula08-ex05">aula 8</a> gere um arquivo PDF usando dompdf que mostre todos os nomes e emails de todos os usuários cadastrados, cadastre ao menos 5 usuários antes.
 </p>
@@ -419,7 +429,7 @@ Utilizando a tabela Usuarios criada na <a href="https://github.com/maurojh/PHP-A
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2019-11-05 ter 15:04</p>
+<p class="date">Created: 2019-11-05 ter 15:08</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
